@@ -1,0 +1,46 @@
+#iss01 - removido logs e alertas, corrigido reprocessamento em produtos com quantidade e consignados
+#iss02 - corrigir novamente reuso dos produtos novos, as vezes vem a quantidade no lugar do reuso verificar porque
+#botoes - alterar  para botões ao invés de radio os seletores de pn e pc
+#
+
+
+Não atualia prontos após etiquetagem.
+mensagem não esterilizado em prod. com quantidade na saída
+zerar quantidade para null ao adicionar produto na saída
+retirar reuso da tela adicionar produtos em saída de materiais para produtos com quantidade
+abrir etiquetagem com produtos comuns já selecionado
+corrigir mensagem de reuso inconsistente
+retirar reprocessamento de produto com quantidade
+retirar reuso de produtos consignados na saída
+retirar reuso da lista em saída de materiais
+resolver o proplema de quantidade!
+retirar reuso da impressão da saída em produtos
+impressão da etiqueta de saída de materiais em branco
+msg "erro ao efetuar cadastro" quando adiciona prod. com quantidade na saída de materiais.
+produtos com quantidade não aparecem na devolução de materiais
+
+
+09/10
+
+#iss01 - contar reuso pelo id e iso_consignado para produto consignado, valor será impresso na etiqueta e no modal de confirmação de impressão. (se estiver já dessa forma manter).
+
+#iss02 - produtos com quantidades devem ser cadastrados com iso_nreuso 0 nos intens da solicitação.
+
+#feature01 - criar campo com quantidade na devolução de materiais, para informar a quantidade que será devolvida para produtos com quantidade.
+
+#feature02 - na devolução adicionar botões para pc e pn, e campo com quantidade a ser devolvida para estoque.
+
+#feature03 - no cadastro de consignados, crirar entradas de "número processo de entrada", "número de processo de saída" e validade da esterilização.
+
+
+
+idéias cleverson
+________________________________________________
+na lista de itens da saída quando for primeiro uso, colocar um aviso de primeiro uso no lote?
+na lista de produtos comuns em cadastro não está aparecendo a opção de apagar
+data limite de uso pode ser incoerente na etiqueta para produtos com quantidade
+
+
+tarefas futuras
+__________________
+ainda não há como devolver produto consignado, não utilizado na saída de materiais
